@@ -1,6 +1,6 @@
 @font-face {
   font-family: Aegean;
-  src: url(Aegean.ttf);
+  src: url('Aegean.ttf');
 }
 body {margin-top:3em; margin-left:4em;}
 textarea {font-size:20px; max-width:100%; font-family:Aegean;}
