@@ -276,7 +276,7 @@ $(function(){
 											"color": "#000",
 											"box-shadow": "#555 1px 3px 3px",
 											"border-radius": "5px",
-											"height": 50,
+											"height": 55,
 											"padding": "0 6px",
 											"background": "#E5E5E5"
 										}
@@ -286,7 +286,7 @@ $(function(){
 					im.dialog.find("li").css({
 						"font-size": 14,
 						"float": "left",
-						"padding": "2px 5px 2px 5px",
+						"padding": "1px 5px 1px 5px",
 						"margin-right": 5,
 						"cursor": "pointer"
 					}).filter(".word").click(function(e) {
@@ -423,6 +423,5 @@ $(function(){
 		e.stopPropagation();
 	});
 	input.keydown(keydown).keyup(keyup);
-	$.alert("IM.js is ready");
 });
 

@@ -1,2 +1,1 @@
-cat wordlib.js swift.js im.js > im.min.js && sed -i "s/window.$ = //g" im.min.js
-scp im.min.js vps:www/
+cat wordlib.js swift.js ime.js > ime.min.js && sed -i "s/window.$ = //g" ime.min.js
